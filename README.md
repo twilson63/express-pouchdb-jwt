@@ -14,6 +14,7 @@ The purpose for this microservice is to enable jwt user authentication for couch
 COUCHDB=[locations to couchdb server]
 JWT_SECRET=[secret for jwt auth]
 LOCALDB=[local database name to expose to client]
+ORIGIN=[name of client ref]
 ```
 
 ex
@@ -22,6 +23,7 @@ ex
 COUCHDB=http://user:password@localhost:5984/mydb
 JWT_SECRET=1234
 LOCALDB=mydb
+ORIGIN=http://www.example.com
 ```
 
 ## Setup
