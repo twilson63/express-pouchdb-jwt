@@ -11,6 +11,7 @@
   "author": "Tom",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.7.1",
     "express": "^4.13.4",
     "express-jwt": "^3.3.0",
     "express-pouchdb": "^1.0.3",
