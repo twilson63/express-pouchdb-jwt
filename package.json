@@ -1,19 +1,29 @@
 {
   "name": "express-pouchdb-jwt",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an express server that can point to a pouch or couch database and provide a jwt verification for authentication to a couch or pouch database.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Tom",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
     "express-jwt": "^3.3.0",
     "express-pouchdb": "^1.0.3",
     "memdown": "^1.1.2",
     "pouchdb": "^5.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilson63/express-pouchdb-jwt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twilson63/express-pouchdb-jwt/issues"
+  },
+  "homepage": "https://github.com/twilson63/express-pouchdb-jwt#readme"
 }
